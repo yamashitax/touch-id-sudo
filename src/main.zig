@@ -13,6 +13,6 @@ pub fn main() !void {
         \\auth       required       pam_opendirectory.so
         \\account    required       pam_permit.so
         \\password   required       pam_deny.so
-        \\session    required       pam_permit.so,
+        \\session    required       pam_permit.so
     );
 }
